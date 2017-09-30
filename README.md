@@ -1,4 +1,4 @@
-# A3C-Reinforcement-Learning
+# A3C Continuous Reinforcement Learning
 Tensorflow implementation of the asynchronous advantage actor-critic (A3C) reinforcement learning algorithm [(paper)](https://arxiv.org/pdf/1602.01783.pdf) for continuous action space. Code is mostly based on the code of Morvan Zhou [(github)](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow).
 
 ## Components
