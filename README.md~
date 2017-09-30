@@ -4,5 +4,3 @@ Implementation of the asynchronous advantage actor-critic (A3C) reinforcement le
 ## Details
 * Worker:
 * Buffer:
-
-![before](gifs/episode1.gif)
