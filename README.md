@@ -8,10 +8,11 @@ Tensorflow implementation of the asynchronous advantage actor-critic (A3C) reinf
 
 ## Results
 
-Pendulum environment before training
+Pendulum environment before training:
 
 ![before](gifs/episode1.gif)
 
 
-After 1500 episodes
+After 1500 episodes:
+
 ![after](gifs/episode1500.gif)
