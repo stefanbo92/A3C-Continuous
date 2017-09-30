@@ -3,8 +3,8 @@ Tensorflow implementation of the asynchronous advantage actor-critic (A3C) reinf
 
 ## Components
 * ACNet: This class contains the actor-critic neural network that estimates an action given a certain state and a value for each state. For continuous action states the action is given as an expected value mu and variance sigma. 
-* Worker: In the A3C algorithm there are multiple workers which have their own environment and ACNet and train on these asynchronous. Every few steps they update the global ACNet.
-* Main: The main function creates the global ACNet and multiple workers. These start training until the maximum number of training episodes is reached. Reward will be plotted over all steps.
+* Worker: The A3C algorithm employs multiple workers which have their own environment and ACNet and train on these asynchronous. Every few steps they update their weights to the global ACNet.
+* Main: The main function creates the global ACNet and multiple workers. They start training until a defined number of training episodes is reached. Reward will be plotted over all steps.
 
 ## Results
 
