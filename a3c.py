@@ -25,8 +25,8 @@ LR_C = 0.001                # learning rate for critic
 GAME = 'Pendulum-v0'
 env = gym.make(GAME)
 env.reset()
-if RENDER:  # uncomment if rendering does not work
-    env.render()
+#if RENDER:                 # uncomment if rendering does not work
+#    env.render()
 N_S = env.observation_space.shape[0]                    # number of states
 N_A = env.action_space.shape[0]                         # number of actions
 A_BOUND = [env.action_space.low, env.action_space.high] # action bounds
